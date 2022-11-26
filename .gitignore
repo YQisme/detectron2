@@ -8,6 +8,8 @@ inference_test_output
 *.png
 *.json
 *.diff
+# 除了指定文件夹中jpg文件，其他文件都不需要上传
+!**/imgs/test/*.jpg 
 *.jpg
 !/projects/DensePose/doc/images/*.jpg
 
